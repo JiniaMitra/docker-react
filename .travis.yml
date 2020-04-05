@@ -4,4 +4,4 @@ services:
 before_install:
   - docker build -t jinia/docker-react-app .
 script:
-  - docker run jinia/docker-react-app npm run test
+  - docker run jinia/docker-react-app
